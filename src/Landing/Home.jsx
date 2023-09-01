@@ -95,7 +95,7 @@ function Home() {
     
     <div className="m-3">
         <p className=" font-seriff mb-5">
-         <span className=" font-bold text-2xl"> We're excited to get to know you better! <br /> </span> Please take a moment to fill in
+         <span className=" font-bold text-2xl"> We are excited to get to know you better! <br /> </span> Please take a moment to fill in
           your details below. Your information will be kept confidential and used
           solely for the purpose you provide it. Your participation is essential
           for us to tailor our services to your needs and provide you with the
