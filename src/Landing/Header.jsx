@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"; // Import PropTypes
+import PropTypes from "prop-types";
 import {
   Box,
   Flex,
@@ -34,9 +34,8 @@ const NavLink = (props) => {
   );
 };
 
-// Add PropTypes validation for the children prop
 NavLink.propTypes = {
-  children: PropTypes.node, // Use PropTypes.node to specify that children can be any valid JSX
+  children: PropTypes.node,
 };
 
 function Simple() {
