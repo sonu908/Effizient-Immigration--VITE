@@ -1,8 +1,28 @@
-# React + Vite
+# React Vite + Node.js Project: User Information Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project aims to create a web application that collects user information through a form and sends a copy of the submitted details to the provided email address. The technology stack includes React for the frontend, Vite for project setup, and Node.js for the backend server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+### 1. User Information Form
+
+   - **Description:** The application features a user-friendly form that collects the following information:
+     - Email
+     - Name
+     - Phone Number
+     - Age
+     - Additional Details
+       
+### 2. Backend Server
+
+   - **Description:** A Node.js backend server is used to handle form submissions.
+   
+### 3. Email Notification
+
+   - **Description:** Upon successful submission of the form, an email notification is sent to the provided email address containing a copy of the user's submitted details.
+
+### 4. Responsive Design
+
+   - **Description:** The application is designed to be responsive, ensuring an optimal user experience on both desktop and mobile devices.
